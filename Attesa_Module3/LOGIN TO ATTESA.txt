@@ -1,4 +1,0 @@
-Attesa Login Activity Credentials
-----------------------------------------------
-Email: test@gmail.com
-Pass: 1
