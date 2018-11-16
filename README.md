@@ -1,4 +1,4 @@
-# Attesa
+# Attesa - CENG Software Project
 
 Project Team Members:
 
