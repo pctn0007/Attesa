@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/etPass"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="95dp"
+
+            android:ems="10"
+            android:hint="@string/str_email"
+            android:inputType="textEmailAddress"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/etPass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/etPass2"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="150dp"
+            android:ems="10"
+            android:hint="@string/str_password"
+            android:inputType="textPassword"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="84dp"
+            tools:layout_editor_absoluteY="182dp" />
+
+        <EditText
+            android:id="@+id/etPass2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/btnRegister"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="200dp"
+            android:ems="10"
+            android:hint="@string/str_conpassword"
+            android:inputType="textPassword"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="84dp"
+            tools:layout_editor_absoluteY="260dp" />
+
+        <EditText
+            android:id="@+id/etHC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/btnRegister"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="250dp"
+            android:ems="10"
+            android:hint="@string/str_hc_num"
+            android:inputType="number"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="84dp"
+            tools:layout_editor_absoluteY="260dp" />
+
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="215dp"
+            android:layout_height="47dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="74dp"
+            android:layout_marginTop="360dp"
+            android:text="@string/str_register"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="343dp" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="209dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnRegister"
+            android:layout_alignEnd="@+id/etEmail"
+            android:layout_marginTop="9dp"
+            android:layout_marginEnd="2dp"
+            android:text="@string/str_login" />
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

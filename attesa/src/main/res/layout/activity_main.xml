@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:maxHeight="75dp"
+        android:layout_gravity="center_horizontal"
+        android:minHeight="75dp"
+        android:maxWidth="75dp"
+        android:minWidth="75dp"
+        android:contentDescription="@string/str_profile" />
+
+    <ListView
+        android:id="@+id/lstClinics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:divider="@color/colorLightGrey"
+        android:background="@color/colorWhite"
+        android:scrollbars="vertical"
+        android:dividerHeight="2dp"
+        android:footerDividersEnabled="true" />
+
+
+</android.support.design.widget.CoordinatorLayout>

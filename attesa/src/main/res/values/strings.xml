@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Attesa</string>
+    <string name="str_email">Email</string>
+    <string name="str_password">Password</string>
+    <string name="str_conpassword">Confirm Password</string>
+    <string name="str_login">Login</string>
+    <string name="str_register">Register</string>
+    <string name="title_activity_login">Login</string>
+    <string name="str_signup">Sign Up</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="tab_text_1">Info</string>
+    <string name="tab_text_2">Visits</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- Clinic list item strings -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="str_cname">clinic name</string>
+    <string name="str_ctype">clinic type</string>
+    <string name="str_crating">4.3</string>
+    <string name="str_avgtime">10–15 MINS.</string>
+    <string name="str_profile">Profile</string>
+    <string name="str_hc_num">Health Card Number</string>
+    <string name="str_hc_exp">Expiry (MM/YY)</string>
+    <string name="title_activity_clinic_select">ClinicSelectActivity</string>
+    <string name="str_live">5</string>
+    <string name="str_caddr">Clinic Address</string>
+    <string name="str_check_in">Check in</string>
+    <string name="str_people_ahead">People Ahead</string>
+    <string name="str_0">0</string>
+
+</resources>
