@@ -1,3 +1,6 @@
+//Anthony Pacitto [pctn0007] (Team Leader)
+//Dariusz Kulpinski [n01164025]
+//Winson Vuong [n01104944]
 package com.attesa;
 
 import android.content.Context;
