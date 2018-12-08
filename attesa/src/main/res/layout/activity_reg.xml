@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity">
-
+    tools:context=".RegActivity">
 
 
     <LinearLayout
@@ -17,6 +16,7 @@
         android:padding="12dp">
 
         <TextView
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="cursive"
@@ -26,9 +26,21 @@
             android:textSize="46sp" />
 
         <EditText
-            android:id="@+id/edit_text_lemail"
+            android:id="@+id/edit_text_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:hint="@string/str_full_name"
+            android:nextFocusDown="@id/edit_text_email"
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/colorHint" />
+
+
+        <EditText
+            android:id="@+id/edit_text_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
             android:hint="@string/str_email"
             android:inputType="textEmailAddress"
             android:nextFocusDown="@id/edit_text_password"
@@ -37,27 +49,54 @@
 
 
         <EditText
-            android:id="@+id/edit_text_lpassword"
+            android:id="@+id/edit_text_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/str_password"
             android:inputType="textPassword"
             android:nextFocusDown="@id/edit_text_phone"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/colorHint" />
+
+        <EditText
+            android:id="@+id/edit_text_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="0123456789"
+            android:fontFamily="sans-serif-smallcaps"
+            android:hint="@string/str_phone"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:nextFocusDown="@id/button_register"
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/colorHint" />
+
+        <EditText
+            android:id="@+id/edit_text_HC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="0123456789"
+            android:hint="@string/str_health_card_no"
+            android:inputType="number"
+            android:maxLength="10"
+            android:fontFamily="sans-serif-smallcaps"
+            android:nextFocusDown="@id/button_register"
             android:textColor="@color/colorText"
             android:textColorHint="@color/colorHint" />
 
         <Button
-            android:id="@+id/button_login"
+            android:id="@+id/button_register"
             android:layout_width="match_parent"
             android:layout_height="65dp"
-            android:text="@string/str_login"
+            android:text="@string/str_register"
             android:textAllCaps="false"
             android:textColor="@color/colorText" />
 
     </LinearLayout>
 
     <ProgressBar
-        android:id="@+id/progressbarLogin"
+        android:id="@+id/progressbar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
