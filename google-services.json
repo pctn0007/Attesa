@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "401168185540",
+    "firebase_url": "https://attesa-e95d4.firebaseio.com",
+    "project_id": "attesa-e95d4",
+    "storage_bucket": "attesa-e95d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:401168185540:android:afb32d66ffc0ba6d",
+        "android_client_info": {
+          "package_name": "com.attesa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "401168185540-seuq308q3h76k3r0c807o4r9ekcbo3do.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.attesa",
+            "certificate_hash": "a7ce447bb48343f08b84cc952f56f90a87cf21e0"
+          }
+        },
+        {
+          "client_id": "401168185540-avqs0ti3re94jlt40mq3n411bhvk76hb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcelnR1yaNzqKSm24NF2mL45GfkHlBIH0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "401168185540-avqs0ti3re94jlt40mq3n411bhvk76hb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

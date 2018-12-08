@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="@string/app_name"
+            android:textAlignment="center"
+            android:textColor="@color/colorText"
+            android:textSize="46sp" />
+
+        <EditText
+            android:id="@+id/edit_text_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:hint="@string/str_full_name"
+            android:nextFocusDown="@id/edit_text_email"
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/colorHint" />
+
+
+        <EditText
+            android:id="@+id/edit_text_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:hint="@string/str_email"
+            android:inputType="textEmailAddress"
+            android:nextFocusDown="@id/edit_text_password"
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/colorHint" />
+
+
+        <EditText
+            android:id="@+id/edit_text_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/str_password"
+            android:inputType="textPassword"
+            android:nextFocusDown="@id/edit_text_phone"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/colorHint" />
+
+        <EditText
+            android:id="@+id/edit_text_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="0123456789"
+            android:fontFamily="sans-serif-smallcaps"
+            android:hint="@string/str_phone"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:nextFocusDown="@id/button_register"
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/colorHint" />
+
+        <EditText
+            android:id="@+id/edit_text_HC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="0123456789"
+            android:hint="@string/str_health_card_no"
+            android:inputType="number"
+            android:maxLength="10"
+            android:fontFamily="sans-serif-smallcaps"
+            android:nextFocusDown="@id/button_register"
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/colorHint" />
+
+        <Button
+            android:id="@+id/button_register"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="@string/str_register"
+            android:textAllCaps="false"
+            android:textColor="@color/colorText" />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="68dp" />
+
+</RelativeLayout>
