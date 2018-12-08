@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Attesa</string>
+    <string name="str_email">Email</string>
+    <string name="str_password">Mot de passe</string>
+    <string name="str_conpassword">Confirmez le mot de passe</string>
+    <string name="str_login">S'identifier</string>
+    <string name="str_register">registre</string>
+    <string name="title_activity_login">S'identifier</string>
+    <string name="str_signup">S'inscrire</string>
+    <string name="title_activity_main">Activité principale</string>
+    <string name="tab_text_1">Info</string>
+    <string name="tab_text_2">Les visites</string>
+    <string name="action_settings">Réglages</string>
+    <string name="section_format">Hello World de la section:% 1 $ d</string>
+
+    <!-- Clinic list item strings -->
+    <string name="hello_blank_fragment">Bonjour fragment vierge</string>
+    <string name="str_cname">nom de la clinique</string>
+    <string name="str_ctype">type de clinique</string>
+    <string name="str_crating">4.3</string>
+    <string name="str_avgtime">10–15 MINS.</string>
+    <string name="str_profile">Profil</string>
+    <string name="str_hc_num">Numéro de carte de santé</string>
+    <string name="str_hc_exp">Expiration (MM/YY)</string>
+    <string name="title_activity_clinic_select">CliniqueSélectionnerActivité</string>
+    <string name="str_live">5</string>
+    <string name="str_caddr">Adresse de la clinique</string>
+    <string name="str_check_in">Enregistrement</string>
+    <string name="str_people_ahead">Les gens à venir</string>
+    <string name="str_0">0</string>
+
+</resources>
