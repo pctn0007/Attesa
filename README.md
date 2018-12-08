@@ -9,5 +9,5 @@ Project Team Members:
 ### Full Release App Directory: Attesa 1.2
 
 Documentation and milestone notes are located in Documentation Directory.
-Atessa Source Code located in Attesa_Module_3.
+Older Atessa Source Code located in Attesa_Module_3.
 Other components in respective directories.
