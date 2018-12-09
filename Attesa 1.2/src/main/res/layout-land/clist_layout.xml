@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:padding="15dp"
+        android:layout_marginBottom="15dp"
+        tools:ignore="UselessParent">
+
+    <TextView
+        android:id="@+id/tvLive"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:textAlignment="center"
+        android:background="@drawable/round_bg_circleblue"
+        android:gravity="center"
+        android:text="@string/str_noline"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/tvcname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="95dp"
+        android:padding="3dp"
+        android:textSize="15sp"
+        android:textColor="#333"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/tvctype"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="25dp"
+        android:padding="3dp"
+        android:textSize="13sp"
+        android:textColor="@color/colorHint"
+        tools:ignore="RtlSymmetry"
+        android:layout_width="match_parent" />
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
