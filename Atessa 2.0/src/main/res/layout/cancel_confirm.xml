@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="375dp">
+
+
+    <TextView
+        android:id="@+id/tvConfirm"
+        android:layout_width="354dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:text="@string/str_confirm_cancel"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvConfirmMsg"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="50dp"
+        android:gravity=""
+        android:text="@string/str_safe"
+        android:textAlignment="center"
+        android:textColor="@color/colorHint"
+        android:textSize="16sp"
+        android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/etCancelPass"
+        android:hint="@string/str_confirm_password"
+        android:layout_width="match_parent"
+        android:layout_marginStart="20dp"
+        android:inputType="textPassword"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/btnConfirmCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="175dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/colorHint"
+        android:textColor="@color/colorWhite"
+        android:text="@string/str_leave_line"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnGoBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/colorWhite"
+        android:text="@string/str_cancel"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
