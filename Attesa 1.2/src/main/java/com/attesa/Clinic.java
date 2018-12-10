@@ -1,5 +1,8 @@
 package com.attesa;
-
+//Project Attesa
+// Anthony Paccito [pctn0007] (Team Leader)
+// Dariusz Kulpinski [n01164025]
+// Winson Vuong [n01104944]
 public class Clinic {
 
     public String cid;
@@ -48,5 +51,8 @@ public class Clinic {
         return cstatus;
     }
 
+    public boolean checkCid(String selected){
+        return (selected.equals(cid));
+    }
 
 }

@@ -1,5 +1,8 @@
 package com.attesa;
-
+//Project Attesa
+// Anthony Paccito [pctn0007] (Team Leader)
+// Dariusz Kulpinski [n01164025]
+// Winson Vuong [n01104944]
 public class Visit {
 
     public String cname;
@@ -31,4 +34,7 @@ public class Visit {
         return uvote;
     }
 
+    public boolean checkCname(String selected){
+        return (selected.equals(cname));
+    }
 }

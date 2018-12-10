@@ -1,5 +1,8 @@
 package com.attesa;
-
+//Project Attesa
+// Anthony Paccito [pctn0007] (Team Leader)
+// Dariusz Kulpinski [n01164025]
+// Winson Vuong [n01104944]
 import android.app.Activity;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
