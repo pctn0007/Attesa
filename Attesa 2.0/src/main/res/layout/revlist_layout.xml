@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp">
+
+        <ImageView
+            android:id="@+id/imgRVote"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:textAlignment="center"
+            android:background="@drawable/round_bg_circleblue"
+            android:gravity="center"
+            android:textSize="34sp"
+            android:src="@drawable/tup"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/tvRCname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="95dp"
+            android:padding="3dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#333" />
+
+        <TextView
+            android:id="@+id/tvRComment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="95dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="serif"
+            android:padding="3dp"
+            android:scrollbarSize="18sp"
+            android:textColor="@color/colorHint"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
