@@ -30,5 +30,7 @@ public class Visit {
     public String getUvote() {
         return uvote;
     }
-
+public boolean checkCname(String selected){
+        return (selected.equals(cname));
+    }
 }
