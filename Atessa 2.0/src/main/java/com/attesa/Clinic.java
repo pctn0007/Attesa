@@ -54,6 +54,8 @@ public class Clinic {
     public int getCstatus() {
         return cstatus;
     }
-
+    public boolean checkCname(String selected){
+        return (selected.equals(cname));
+    }
 
 }
